@@ -1,5 +1,4 @@
 .bundle
-.rvmrc
 .livereload
 db/*.sqlite3
 log/*.log
