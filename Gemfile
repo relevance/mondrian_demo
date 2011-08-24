@@ -15,7 +15,7 @@ platforms :jruby do
   gem 'jdbc-mysql'
   # gem 'activerecord-oracle_enhanced-adapter'
 
-  gem 'mondrian-olap', :git => 'git://github.com/rsim/mondrian-olap.git'
+  gem 'mondrian-olap', :git => 'git://github.com/relevance/mondrian-olap.git'
 
   gem 'kirk', '~> 0.2.0.beta.4'
 end

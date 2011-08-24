@@ -1,9 +1,9 @@
 GIT
-  remote: git://github.com/rsim/mondrian-olap.git
-  revision: 5a328a4a8c0403ebc31001edb060d6fa86373f5c
+  remote: git://github.com/relevance/mondrian-olap.git
+  revision: 3e378f7f8248b2f5ea2f749b360597213abe4a4f
   specs:
-    mondrian-olap (0.1.0)
-      nokogiri (~> 1.5.0.beta.4)
+    mondrian-olap (0.2.0)
+      nokogiri (~> 1.5.0)
 
 GEM
   remote: http://rubygems.org/
@@ -47,6 +47,7 @@ GEM
     jdbc-mysql (5.1.13)
     jruby-openssl (0.7.4)
       bouncy-castle-java
+    json (1.5.1)
     json (1.5.1-java)
     kirk (0.2.0.beta.4-java)
     mail (2.2.19)
@@ -56,7 +57,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.16)
     nifty-generators (0.4.6)
-    nokogiri (1.5.0.beta.4-java)
+    nokogiri (1.5.0-java)
     polyglot (0.3.1)
     rack (1.2.3)
     rack-mount (0.6.14)
@@ -85,6 +86,7 @@ GEM
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
   activerecord-jdbc-adapter
