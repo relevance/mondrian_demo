@@ -12,8 +12,8 @@ development: &development
   host: localhost
   database: foodmart
   pool: 5
-  username: foodmart
-  password: foodmart
+  username: root
+  password: 
   socket: /tmp/mysql.sock
   # adapter: oracle_enhanced
   # host: localhost
